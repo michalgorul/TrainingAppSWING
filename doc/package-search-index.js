@@ -1,0 +1,1 @@
+packageSearchIndex = [{"l":"All Packages","url":"allpackages-index.html"},{"l":"com.Lab1.Controler"},{"l":"com.Lab1.Exceptions"},{"l":"com.Lab1.Model"},{"l":"com.Lab1.MVC"},{"l":"com.Lab1.View"}]
