@@ -184,7 +184,7 @@ public class TrainingModelTests {
     @ValueSource(strings = { "test" }) // add ""
     public void readCategoriesFromExistingFileCorrectString(String str){
 
-        Vector<String> test = model.readCategoriesFromFile("C:\\Users\\micha\\IdeaProjects\\TrainingApp\\abc.txt");
+        Vector<String> test = model.readCategoriesFromFile("C:\\Users\\micha\\IdeaProjects\\TrainingAppSWING\\abc.txt");
         assertEquals(str, test.get(0),"the strings differ");
 
     }
@@ -198,7 +198,7 @@ public class TrainingModelTests {
     @ValueSource(strings = { "test1", "test%%%" }) // add ""
     public void readCategoriesFromExistingFileIncorrectString(String str){
 
-        Vector<String> test = model.readCategoriesFromFile("C:\\Users\\micha\\IdeaProjects\\TrainingApp\\abc.txt");
+        Vector<String> test = model.readCategoriesFromFile("C:\\Users\\micha\\IdeaProjects\\TrainingAppSWING\\abc.txt");
         assertNotEquals(str, test.get(0),"the strings differ");
 
     }

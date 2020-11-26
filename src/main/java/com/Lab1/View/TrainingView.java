@@ -135,7 +135,7 @@ public class TrainingView extends JFrame{
         this.setSize(700, 600);
         this.setLocation((Toolkit.getDefaultToolkit().getScreenSize().width/2)-(this.getSize().width/2),
                 (Toolkit.getDefaultToolkit().getScreenSize().height/2)-(this.getSize().height/2));
-        configureComboBox(model.readCategoriesFromFile("C:\\Users\\micha\\IdeaProjects\\TrainingApp\\categories.txt"));
+        configureComboBox(model.readCategoriesFromFile("C:\\Users\\micha\\IdeaProjects\\TrainingAppSWING\\categories.txt"));
         this.addKilograms.setModel(new SpinnerNumberModel(0.0,-10.0,1000.0,0.1));
         this.addKilometers.setModel(new SpinnerNumberModel(0.0,-10.0,1000.0,0.1));
         this.weightValue.setModel(new SpinnerNumberModel(0.0,-10.0,1000.0,0.1));
